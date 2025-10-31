@@ -384,7 +384,7 @@ Develop a module that tracks the start and end time of a pet's walk.
 | :- | :- |
 | 3 <br/> dog <br/> Snowball <br/> 12 <br/> dog <br/> Snowball2 <br/> 8 <br/> dog <br/> Snowball3 <br/> 10 <br/>        | Dog name = Snowball2, age = 8, start time = 0.20, end time = 4.20  <br/> Dog name = Snowball3, age = 10, start time = 0.30, end time = 5.30 <br/> Dog name = Snowball, age = 12, start time = 0.10, end time = 6.10 |
 | 3 <br/> dog <br/> Snowball <br/> 8 <br/> cat <br/> Kitty <br/> 9 <br/> dog <br/> Balloon <br/> 9 <br/>                | Cat name = Kitty, age = 9, start time = 0.20, end time = 2.45 <br/> Dog name = Snowball, age = 8, start time = 0.10, end time = 4.10 <br/> Dog name = Balloon, age = 9, start time = 0.30, end time = 4.80          |
-| 4 <br/> hamster <br/> cat <br/> Kitty <br/> -10 <br/> dog <br/> Balloon <br/> 10 <br/> cat <br/> Fura <br/> 9 <br/>   | Incorrect input. Unsupported pet type <br/> Incorrect input. Age <= 0 <br/> Cat name = Fura, age = 9, start time = 0.20, end time = 2.45 <br/> Dog name = Balloon, age = 11, start time = 0.10, end time = 5.60      |
+| 4 <br/> hamster <br/> cat <br/> Kitty <br/> -10 <br/> dog <br/> Balloon <br/> 11 <br/> cat <br/> Fura <br/> 9 <br/>   | Incorrect input. Unsupported pet type <br/> Incorrect input. Age <= 0 <br/> Cat name = Fura, age = 9, start time = 0.20, end time = 2.45 <br/> Dog name = Balloon, age = 11, start time = 0.10, end time = 5.60      |
 
 
 #### Task 6. Pet Iterator
