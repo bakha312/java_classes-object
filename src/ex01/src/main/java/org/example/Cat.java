@@ -8,6 +8,7 @@ public class Cat extends Animal{
     public double getFeedInfoKg(){
         return getMass() * 0.1;
     }
+    @Override
     public String toString(){
         return String.format("Cat name = %s, age = %d, mass = %.2f, feed = %.2f",
                 getName(), getAge(), getMass(), getFeedInfoKg());
